@@ -1,0 +1,15 @@
+E:\Dilip\Ankit\console\project-dilip\Calculator\obj\Debug\net7.0\Calculator.csproj.AssemblyReference.cache
+E:\Dilip\Ankit\console\project-dilip\Calculator\obj\Debug\net7.0\Calculator.GeneratedMSBuildEditorConfig.editorconfig
+E:\Dilip\Ankit\console\project-dilip\Calculator\obj\Debug\net7.0\Calculator.AssemblyInfoInputs.cache
+E:\Dilip\Ankit\console\project-dilip\Calculator\obj\Debug\net7.0\Calculator.AssemblyInfo.cs
+E:\Dilip\Ankit\console\project-dilip\Calculator\obj\Debug\net7.0\Calculator.csproj.CoreCompileInputs.cache
+E:\Dilip\Ankit\console\project-dilip\Calculator\bin\Debug\net7.0\Calculator.exe
+E:\Dilip\Ankit\console\project-dilip\Calculator\bin\Debug\net7.0\Calculator.deps.json
+E:\Dilip\Ankit\console\project-dilip\Calculator\bin\Debug\net7.0\Calculator.runtimeconfig.json
+E:\Dilip\Ankit\console\project-dilip\Calculator\bin\Debug\net7.0\Calculator.dll
+E:\Dilip\Ankit\console\project-dilip\Calculator\bin\Debug\net7.0\Calculator.pdb
+E:\Dilip\Ankit\console\project-dilip\Calculator\obj\Debug\net7.0\Calculator.dll
+E:\Dilip\Ankit\console\project-dilip\Calculator\obj\Debug\net7.0\refint\Calculator.dll
+E:\Dilip\Ankit\console\project-dilip\Calculator\obj\Debug\net7.0\Calculator.pdb
+E:\Dilip\Ankit\console\project-dilip\Calculator\obj\Debug\net7.0\Calculator.genruntimeconfig.cache
+E:\Dilip\Ankit\console\project-dilip\Calculator\obj\Debug\net7.0\ref\Calculator.dll
