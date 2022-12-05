@@ -1,0 +1,15 @@
+I:\New folder\.NET-ankit\Broadway\bin\Debug\net7.0\Broadway.exe
+I:\New folder\.NET-ankit\Broadway\bin\Debug\net7.0\Broadway.deps.json
+I:\New folder\.NET-ankit\Broadway\bin\Debug\net7.0\Broadway.runtimeconfig.json
+I:\New folder\.NET-ankit\Broadway\bin\Debug\net7.0\Broadway.dll
+I:\New folder\.NET-ankit\Broadway\bin\Debug\net7.0\Broadway.pdb
+I:\New folder\.NET-ankit\Broadway\obj\Debug\net7.0\Broadway.csproj.AssemblyReference.cache
+I:\New folder\.NET-ankit\Broadway\obj\Debug\net7.0\Broadway.GeneratedMSBuildEditorConfig.editorconfig
+I:\New folder\.NET-ankit\Broadway\obj\Debug\net7.0\Broadway.AssemblyInfoInputs.cache
+I:\New folder\.NET-ankit\Broadway\obj\Debug\net7.0\Broadway.AssemblyInfo.cs
+I:\New folder\.NET-ankit\Broadway\obj\Debug\net7.0\Broadway.csproj.CoreCompileInputs.cache
+I:\New folder\.NET-ankit\Broadway\obj\Debug\net7.0\Broadway.dll
+I:\New folder\.NET-ankit\Broadway\obj\Debug\net7.0\refint\Broadway.dll
+I:\New folder\.NET-ankit\Broadway\obj\Debug\net7.0\Broadway.pdb
+I:\New folder\.NET-ankit\Broadway\obj\Debug\net7.0\Broadway.genruntimeconfig.cache
+I:\New folder\.NET-ankit\Broadway\obj\Debug\net7.0\ref\Broadway.dll

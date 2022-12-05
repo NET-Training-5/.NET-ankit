@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "I:\\New folder\\.NET-ankit\\HelloAnkit\\HelloAnkit.csproj",
-      "projectName": "HelloAnkit",
-      "projectPath": "I:\\New folder\\.NET-ankit\\HelloAnkit\\HelloAnkit.csproj",
+      "projectUniqueName": "I:\\New folder\\.NET-ankit\\Broadway\\Broadway.csproj",
+      "projectName": "Broadway",
+      "projectPath": "I:\\New folder\\.NET-ankit\\Broadway\\Broadway.csproj",
       "packagesPath": "C:\\Users\\Upendra Dhungana\\.nuget\\packages\\",
-      "outputPath": "I:\\New folder\\.NET-ankit\\HelloAnkit\\obj\\",
+      "outputPath": "I:\\New folder\\.NET-ankit\\Broadway\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Upendra Dhungana\\AppData\\Roaming\\NuGet\\NuGet.Config",
