@@ -13,16 +13,10 @@ class Addition
 
 }
 
-
-
-
-
-
-
 class SquareRoot : Addition
 {
     float num3;
-    public SquareRoot(float n): base(n,n)
+    public SquareRoot(float n) : base(n, n)
     {
 
     }

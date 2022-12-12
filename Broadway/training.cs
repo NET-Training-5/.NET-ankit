@@ -111,10 +111,12 @@ class Training
         var sum = a1.Add();
         var diff = a1.Sub();
 
+        Console.WriteLine($"Sum is {sum}. Differece is {diff}");
+
         SquareRoot s1 = new(1.8f);
         var sa = s1.Add();
         var sb = s1.Sub();
-
+        Console.WriteLine($"sa is {sa}. sb is {sb}");
 
     }
 
