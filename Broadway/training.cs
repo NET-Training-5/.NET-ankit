@@ -107,17 +107,32 @@ class Training
         // var cp = shape.GetPerimeter();
 
 
-        Addition a1 = new(1.5f, 1.3f);
-        var sum = a1.Add();
-        var diff = a1.Sub();
+        // Addition a1 = new(1.5f, 1.3f);
+        // var sum = a1.Add();
+        // var diff = a1.Sub();
 
-        Console.WriteLine($"Sum is {sum}. Differece is {diff}");
+        // Console.WriteLine($"Sum is {sum}. Differece is {diff}");
 
-        SquareRoot s1 = new(1.8f);
-        var sa = s1.Add();
-        var sb = s1.Sub();
-        Console.WriteLine($"sa is {sa}. sb is {sb}");
+        // SquareRoot s1 = new(1.8f);
+        // var sa = s1.Add();
+        // var sb = s1.Sub();
+        // Console.WriteLine($"sa is {sa}. sb is {sb}");
 
+
+        // Generic g =new();
+        // g.PrintDetails<string>("hello world");
+        // g.PrintDetails<bool>(true);
+        // g.PrintDetails<char>('A');
+
+        // FIleIO fi = new();
+        // fi.CreateFile();
+        // fi.CreateDirectory();
+        // Classwork c = new();
+        // c.Createfolder();
+        LINQ l = new();
+        l.LearnToQuery();
+
+       
     }
 
 }
