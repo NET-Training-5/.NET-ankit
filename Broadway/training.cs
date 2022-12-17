@@ -131,8 +131,11 @@ class Training
         // c.Createfolder();
         LINQ l = new();
         l.LearnToQuery();
-
-       
+        // l.Printvalues();
+        Array a = new();
+        a.Assignment();
+        a.Count();
+        a.StartFromN();
     }
 
 }

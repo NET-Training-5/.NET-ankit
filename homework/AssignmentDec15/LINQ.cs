@@ -1,6 +1,6 @@
 
 
-class Mul
+class Multiple
 {
     List<int> numbers = new List<int>() { 1, 5, 10, 20, 35, 25, 21, 49, 50, 7, 55 };
     public void MultipleOfFive()
@@ -13,6 +13,7 @@ class Mul
         {
             Console.WriteLine(item);
         }
+    
 
 
 
