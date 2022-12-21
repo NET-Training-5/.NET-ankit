@@ -136,6 +136,11 @@ class Training
         a.Assignment();
         a.Count();
         a.StartFromN();
+
+        ParallelAndAsync p = new();
+        p.WriteParallelCode();
+        
+        
     }
 
 }

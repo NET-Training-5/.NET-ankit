@@ -3,7 +3,7 @@
 class LINQ
 {
     int[] numbers = { 4, 5, 5, 7, 9, 9, 7, 4, 6, 4, 1, 7, 5, 6, 2, 1, 6, 1, 6 };
-    
+
 
     public void LearnToQuery()
     {
@@ -60,16 +60,68 @@ class LINQ
         Printvalues(squarerootlessthan100, "square roots less than 50 is");
 
         //expression syntax bata same kam gareko
-        var squarerootlessthan1001 = from x in numbers              
+        var squarerootlessthan1001 = from x in numbers
                                      where x < 50
                                      select Math.Sqrt(x);           //mathi ko method syntax sabai
                                                                     //yo chai expression syntax
 
         //sort numbers
-        var numberssorted= numbers.Order();
+        var numberssorted = numbers.Order();
+
+        // List 5 items and skipping first two
+        var fiveitems = numbers.Skip(2).Take(5);   //skip ra take use gareko inbuit system ho.
+        Printvalues(fiveitems, "Skip-Take");
+
+        //Check if any items is even numbers.
+        var checkedItemforEvenNumber = numbers.Any(x => x % 2 == 0);  // any - inbuilt system
+        Console.WriteLine($"Any Even :{checkedItemforEvenNumber}");
+
+        //Check if all items are even numbers.
+        var areAllEvenNumbers = numbers.All(x => x % 2 == 0); //all - inbuilt system
+        Console.WriteLine($"Any Even :{areAllEvenNumbers}");
+
+
 
 
     }
+
+    // public void LearnToQueryOnObjectCollection()
+    // {
+    //     Person p1 = new();
+    //     p1.fullName = "Ankit Dhungana";
+    //     p1.gender = 'M';
+    //     p1.height = 170.45f;
+
+    //     Person p2 = new() { fullName = "Sasmit Khanal", gender = 'M', height = 45.3f }; // object banaune arko tarika 
+    //     Person p3 = new() { fullName = "Ram Shrestha", gender = 'M', height = 65.3f };
+    //     Person p4 = new() { fullName = "Sita Kumari", gender = 'F', height = 5565.3f };
+    //     Person p5 = new() { fullName = "Rita Humagain", gender = 'F', height = 455.3f };
+
+
+    //     List<Person> people = new List<Person>() { p1, p2, p3, p4, p5 };
+
+
+    //     // people.Add(p1);
+    //     // people.Add(p2);
+    //     // people.Add(p3);
+    //     // people.Add(p4);
+    //     // people.Add(p5);
+
+
+    //     //List all females
+    //     var females = people.Where(x => x.gender == 'F'); //.gender use gareko
+
+    //     //List all males in ascending order of their height
+    //     var males = from p in people
+    //                 where p.gender == 'M'
+    //                 orderby p.height
+    //                 select p;
+                                            
+    // }
+
+
+
+
 
     void Printvalues<T>(IEnumerable<T> items, string label)
     {
@@ -79,11 +131,9 @@ class LINQ
             Console.WriteLine(item + "");
     }
 
-// Create an array containing 20 country names. query this collection to answer following :
-        // 1. List all countries starting with letter N.
-        // 2. List all countries which have lentght of 4 or less.
-        // 3. Convert all countries to uppercase
-
-
+    // Create an array containing 20 country names. query this collection to answer following :
+    // 1. List all countries starting with letter N.
+    // 2. List all countries which have lentght of 4 or less.
+    // 3. Convert all countries to uppercase
 
 }
