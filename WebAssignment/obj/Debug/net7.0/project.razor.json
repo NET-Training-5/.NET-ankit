@@ -1,5 +1,5 @@
 {
-  "FilePath": "i:\\New folder\\.NET-ankit\\WebDevelopment\\HelloWeb\\HelloWeb.csproj",
+  "FilePath": "i:\\New folder\\.NET-ankit\\WebAssignment\\WebAssignment.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "6.0",
@@ -16552,46 +16552,46 @@
     ],
     "CSharpLanguageVersion": 1100
   },
-  "RootNamespace": "HelloWeb",
+  "RootNamespace": "WebAssignment",
   "Documents": [
     {
-      "FilePath": "i:\\New folder\\.NET-ankit\\WebDevelopment\\HelloWeb\\views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FilePath": "i:\\New folder\\.NET-ankit\\WebAssignment\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "i:\\New folder\\.NET-ankit\\WebDevelopment\\HelloWeb\\views\\_ViewStart.cshtml",
-      "TargetPath": "views\\_ViewStart.cshtml",
+      "FilePath": "i:\\New folder\\.NET-ankit\\WebAssignment\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "i:\\New folder\\.NET-ankit\\WebDevelopment\\HelloWeb\\views\\Home\\Privacy.cshtml",
-      "TargetPath": "views\\Home\\Privacy.cshtml",
+      "FilePath": "i:\\New folder\\.NET-ankit\\WebAssignment\\Views\\Home\\Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "i:\\New folder\\.NET-ankit\\WebDevelopment\\HelloWeb\\views\\Shared\\_Layout.cshtml",
-      "TargetPath": "views\\Shared\\_Layout.cshtml",
+      "FilePath": "i:\\New folder\\.NET-ankit\\WebAssignment\\Views\\Multiple\\Output.cshtml",
+      "TargetPath": "Views\\Multiple\\Output.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "i:\\New folder\\.NET-ankit\\WebDevelopment\\HelloWeb\\views\\_ViewImports.cshtml",
-      "TargetPath": "views\\_ViewImports.cshtml",
+      "FilePath": "i:\\New folder\\.NET-ankit\\WebAssignment\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "i:\\New folder\\.NET-ankit\\WebDevelopment\\HelloWeb\\views\\Shared\\Error.cshtml",
-      "TargetPath": "views\\Shared\\Error.cshtml",
+      "FilePath": "i:\\New folder\\.NET-ankit\\WebAssignment\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "i:\\New folder\\.NET-ankit\\WebDevelopment\\HelloWeb\\views\\Home\\Index.cshtml",
-      "TargetPath": "views\\Home\\Index.cshtml",
+      "FilePath": "i:\\New folder\\.NET-ankit\\WebAssignment\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "i:\\New folder\\.NET-ankit\\WebDevelopment\\HelloWeb\\views\\Number\\greet.cshtml",
-      "TargetPath": "views\\Number\\greet.cshtml",
+      "FilePath": "i:\\New folder\\.NET-ankit\\WebAssignment\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     }
   ],
