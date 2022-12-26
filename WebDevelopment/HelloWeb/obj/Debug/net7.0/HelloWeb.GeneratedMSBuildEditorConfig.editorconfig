@@ -9,41 +9,49 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = HelloWeb
 build_property.RootNamespace = HelloWeb
-build_property.ProjectDir = i:\New folder\.NET-ankit\WebDevelopment\HelloWeb\
+build_property.ProjectDir = I:\New folder\.NET-ankit\WebDevelopment\HelloWeb\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = i:\New folder\.NET-ankit\WebDevelopment\HelloWeb
+build_property.MSBuildProjectDirectory = I:\New folder\.NET-ankit\WebDevelopment\HelloWeb
 build_property._RazorSourceGeneratorDebug = 
 
-[i:/New folder/.NET-ankit/WebDevelopment/HelloWeb/views/Home/Index.cshtml]
+[I:/New folder/.NET-ankit/WebDevelopment/HelloWeb/views/Employee/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = dmlld3NcRW1wbG95ZWVcRGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[I:/New folder/.NET-ankit/WebDevelopment/HelloWeb/views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = dmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[i:/New folder/.NET-ankit/WebDevelopment/HelloWeb/views/Home/Privacy.cshtml]
+[I:/New folder/.NET-ankit/WebDevelopment/HelloWeb/views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = dmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[i:/New folder/.NET-ankit/WebDevelopment/HelloWeb/views/Number/greet.cshtml]
-build_metadata.AdditionalFiles.TargetPath = dmlld3NcTnVtYmVyXGdyZWV0LmNzaHRtbA==
+[I:/New folder/.NET-ankit/WebDevelopment/HelloWeb/views/Number/MultiplicationTable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = dmlld3NcTnVtYmVyXE11bHRpcGxpY2F0aW9uVGFibGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[i:/New folder/.NET-ankit/WebDevelopment/HelloWeb/views/Shared/Error.cshtml]
+[I:/New folder/.NET-ankit/WebDevelopment/HelloWeb/views/Number/Table.cshtml]
+build_metadata.AdditionalFiles.TargetPath = dmlld3NcTnVtYmVyXFRhYmxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[I:/New folder/.NET-ankit/WebDevelopment/HelloWeb/views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = dmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[i:/New folder/.NET-ankit/WebDevelopment/HelloWeb/views/Shared/_ValidationScriptsPartial.cshtml]
+[I:/New folder/.NET-ankit/WebDevelopment/HelloWeb/views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = dmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[i:/New folder/.NET-ankit/WebDevelopment/HelloWeb/views/_ViewImports.cshtml]
+[I:/New folder/.NET-ankit/WebDevelopment/HelloWeb/views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = dmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[i:/New folder/.NET-ankit/WebDevelopment/HelloWeb/views/_ViewStart.cshtml]
+[I:/New folder/.NET-ankit/WebDevelopment/HelloWeb/views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = dmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[i:/New folder/.NET-ankit/WebDevelopment/HelloWeb/views/Shared/_Layout.cshtml]
+[I:/New folder/.NET-ankit/WebDevelopment/HelloWeb/views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = dmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-wsitpft3ll

@@ -9,41 +9,41 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WebAssignment
 build_property.RootNamespace = WebAssignment
-build_property.ProjectDir = I:\New folder\.NET-ankit\WebAssignment\
+build_property.ProjectDir = i:\New folder\.NET-ankit\WebAssignment\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = I:\New folder\.NET-ankit\WebAssignment
+build_property.MSBuildProjectDirectory = i:\New folder\.NET-ankit\WebAssignment
 build_property._RazorSourceGeneratorDebug = 
 
-[I:/New folder/.NET-ankit/WebAssignment/Views/Home/Index.cshtml]
+[i:/New folder/.NET-ankit/WebAssignment/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/New folder/.NET-ankit/WebAssignment/Views/Home/Privacy.cshtml]
+[i:/New folder/.NET-ankit/WebAssignment/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/New folder/.NET-ankit/WebAssignment/Views/Multiple/Output.cshtml]
+[i:/New folder/.NET-ankit/WebAssignment/Views/Multiple/Output.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXVsdGlwbGVcT3V0cHV0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/New folder/.NET-ankit/WebAssignment/Views/Shared/Error.cshtml]
+[i:/New folder/.NET-ankit/WebAssignment/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/New folder/.NET-ankit/WebAssignment/Views/Shared/_ValidationScriptsPartial.cshtml]
+[i:/New folder/.NET-ankit/WebAssignment/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/New folder/.NET-ankit/WebAssignment/Views/_ViewImports.cshtml]
+[i:/New folder/.NET-ankit/WebAssignment/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/New folder/.NET-ankit/WebAssignment/Views/_ViewStart.cshtml]
+[i:/New folder/.NET-ankit/WebAssignment/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/New folder/.NET-ankit/WebAssignment/Views/Shared/_Layout.cshtml]
+[i:/New folder/.NET-ankit/WebAssignment/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-toqlx46134

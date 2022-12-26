@@ -1,0 +1,22 @@
+@model (int, int)
+
+@{
+    (int from, int to) = Model;
+}
+<div class="container">
+    <div class="row">
+    @for (int i = from; i <= to; i++)
+        {
+            <div class="col">
+            @for (int j = 1; j <= 10; j++)
+            {
+            
+                <pre>@i * @j = @(i*j)</pre>
+            }
+            </div>
+        }
+
+    </div>
+</div>
+
+
