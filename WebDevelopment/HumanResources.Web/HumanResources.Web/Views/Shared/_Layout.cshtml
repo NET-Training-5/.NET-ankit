@@ -6,6 +6,8 @@
     <title>@ViewData["Title"] - HumanResources</title>
     <title>@ViewData["Employee"] - HumanResources</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link href="~/lib/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
+    <link href="~/lib/bootstrap-icons/font/bootstrap-icons.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/HumanResources.Web.styles.css" asp-append-version="true" />
 </head>
@@ -25,14 +27,23 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Employee" asp-action="Index">Employee</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Employee" asp-action="Add">Add</a>
-                        </li>
                        
-                       
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Employee
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="/employee/index">All Employees</a></li>
+                                <li><a class="dropdown-item" href="/employee/add">Add New Employees</a></li>
+                                <li><a class="dropdown-item" href="/departments/index">Department</a></li>
+                                <li><a class="dropdown-item" href="/designations/index">Designation</a></li>
+                                
+                             
+                            </ul>
+                        </li>
+
+                        
+                       `
                         
                     </ul>
                 </div>
