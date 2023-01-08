@@ -2,7 +2,7 @@
 
 @model Employee
 @{
-    ViewData["Title"] = "Add";
+    ViewData["Title"] = "Add Employee";
     var departments = ViewData["departments"] as IEnumerable<SelectListItem>;
     var designations = ViewData["designations"] as IEnumerable<SelectListItem>;
 }
@@ -68,13 +68,13 @@
             <div class="col">
                 <div class="mb-3">
                     <label class="form-label">Department</label>
-                    <select asp-for=Department asp-items=departments class="form-control"></select>
+                    <select asp-for=DepartmentId asp-items=departments class="form-control"></select>
                 </div>
             </div>
             <div class="col">
                 <div class="mb-3">
                     <label class="form-label">Designation</label>
-                    <select asp-for=Designation asp-items=designations class="form-control"></select>
+                    <select asp-for=DesignationId asp-items=designations class="form-control"></select>
                 </div>
             </div>
 

@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\Image\\logo.png"
     },
     {
+      "Id": "I:\\New folder\\.NET-ankit\\WebDevelopment\\HumanResources.Web\\HumanResources.Web\\wwwroot\\Image\\photo.jpeg",
+      "PackagePath": "staticwebassets\\Image\\photo.jpeg"
+    },
+    {
       "Id": "I:\\New folder\\.NET-ankit\\WebDevelopment\\HumanResources.Web\\HumanResources.Web\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

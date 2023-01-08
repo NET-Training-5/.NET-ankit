@@ -31,14 +31,14 @@
         @foreach (var employee in Model)
         {
             <tr>
-             
+                <td> <img src="/Image/photo.jpeg" / height="40px"></td>
                 <td>@employee.Name</td>
                 <td>@employee.Address</td>
                 <td>@employee.Gender</td>
                 <td>@employee.Dob?.ToString("MMMM dd, yyyy")</td>
                 <td>@employee.JoinDate.ToString("MMMM dd, yyyy")</td>
-                <td>@employee.Department</td>
-                <td>@employee.Designation</td>
+                <td>@employee.Department?.Name</td>
+                <td>@employee.Designation?.Name</td>
                 
                 <td>
                     <a href="/employee/edit/@employee.Id">

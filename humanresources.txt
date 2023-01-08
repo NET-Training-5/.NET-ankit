@@ -1,0 +1,43 @@
+Human Resources
+==========================
+
+
+****Entities********
+-Employee
+-Teams
+-Departments
+-Desination
+-Benefits
+-Hiring
+-Timesheet
+
+
+*********Reporting
+================
+-Dashboard
+-Reports
+
+Security
+=======================================
+-Role based authorization
+-Authenticatio
+
+
+
+Database Programming
+================================
+Relational Database (Uses SQL): MySql, Sqlite*, Sql Server*, Oracle , Postgres etc.
+NO Sql Database : Mongodb, AWS DynamoDB etc.
+
+Data Access
+=========================
+1.ADO.NET (Active Data Object)
+2.ORM(Object Relational Mapper) tool: Dapper,Entity Framework Core, NHibernate, RepoDb etc.
+   - Allows us to write db queries in high level languages like C#.
+  
+EF Core
+================================
+1. Database first
+2. Code first
+3. 
+ 	

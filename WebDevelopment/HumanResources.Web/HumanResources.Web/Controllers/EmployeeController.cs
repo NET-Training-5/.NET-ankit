@@ -2,44 +2,57 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using System.Runtime.InteropServices;
 
 namespace HumanResources.Web.Controllers
 {
     public class EmployeeController : Controller
     {
         HRDbContext db = new HRDbContext();
-        public IActionResult Index()
+        public async Task< IActionResult> Index()
         {
-            
-            var employees= db.Employees.ToList();
+
+            var employees = await db.Employees.Include(d => d.Designation).ToListAsync();
+            var employeees =await db.Employees.Include(e => e.Department).ToListAsync();
+
             return View(employees);
         }
 
-        public IActionResult Add() 
+       
+
+        public async Task<IActionResult> Add()
         {
-            var departments = db.Departments.Select(x => new SelectListItem { Text = x.Name, Value = x.Name }).ToList();
+            var departments = await db.Departments.Select(department => new SelectListItem
+            {
+                Text = department.Name,
+                Value = department.Id.ToString()
+            }).ToListAsync();
             ViewData["departments"] = departments;
 
-            var designations = db.designations.Select(x => new SelectListItem { Text = x.Name, Value = x.Name }).ToList();
+            var designations = db.Designations.Select(designation => new SelectListItem
+            {
+                Text = designation.Name,
+                Value = designation.Id.ToString()
+            }).ToList();
             ViewData["designations"] = designations;
 
             return View();
         }
 
 
-       
+
         [HttpPost]
-        public IActionResult Add(Employee employee)
+        public async Task<IActionResult> Add(Employee employee)
         {
-          
-           db.Employees. Add(employee);
-            db.SaveChanges();
+
+            await db.Employees.AddAsync(employee);
+            await db.SaveChangesAsync();
             return RedirectToAction("Index");
         }
 
-        public IActionResult Edit(int id)
+        public async Task<IActionResult> Edit(int id)
         {
-           var employee = db.Employees.Find(id);
+            var employee = await db.Employees.FindAsync(id);
             return View(employee);
         }
         [HttpPost]
@@ -52,9 +65,9 @@ namespace HumanResources.Web.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        public IActionResult Delete(int id)
+        public async Task<IActionResult> Delete(int id)
         {
-            var employee = db.Employees.Find(id);
+            var employee = await db.Employees.FindAsync(id);
             return View(employee);
         }
         [HttpPost]
@@ -68,5 +81,5 @@ namespace HumanResources.Web.Controllers
         }
 
     }
-    
+
 }

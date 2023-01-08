@@ -21,20 +21,20 @@ namespace HumanResources.Web.Controllers
         // GET: Designations
         public async Task<IActionResult> Index()
         {
-              return _context.designations != null ? 
-                          View(await _context.designations.ToListAsync()) :
+              return _context.Designations != null ? 
+                          View(await _context.Designations.ToListAsync()) :
                           Problem("Entity set 'HRDbContext.designations'  is null.");
         }
 
         // GET: Designations/Details/5
         public async Task<IActionResult> Details(int? id)
         {
-            if (id == null || _context.designations == null)
+            if (id == null || _context.Designations == null)
             {
                 return NotFound();
             }
 
-            var designation = await _context.designations
+            var designation = await _context.Designations
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (designation == null)
             {
@@ -55,7 +55,7 @@ namespace HumanResources.Web.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,status")] Designation designation)
+        public async Task<IActionResult> Create([Bind("Id,Name,Description,Role")] Designation designation)
         {
             if (ModelState.IsValid)
             {
@@ -69,12 +69,12 @@ namespace HumanResources.Web.Controllers
         // GET: Designations/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
-            if (id == null || _context.designations == null)
+            if (id == null || _context.Designations == null)
             {
                 return NotFound();
             }
 
-            var designation = await _context.designations.FindAsync(id);
+            var designation = await _context.Designations.FindAsync(id);
             if (designation == null)
             {
                 return NotFound();
@@ -87,7 +87,7 @@ namespace HumanResources.Web.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,status")] Designation designation)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Description,Role")] Designation designation)
         {
             if (id != designation.Id)
             {
@@ -120,12 +120,12 @@ namespace HumanResources.Web.Controllers
         // GET: Designations/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
-            if (id == null || _context.designations == null)
+            if (id == null || _context.Designations == null)
             {
                 return NotFound();
             }
 
-            var designation = await _context.designations
+            var designation = await _context.Designations
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (designation == null)
             {
@@ -140,14 +140,14 @@ namespace HumanResources.Web.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            if (_context.designations == null)
+            if (_context.Designations == null)
             {
                 return Problem("Entity set 'HRDbContext.designations'  is null.");
             }
-            var designation = await _context.designations.FindAsync(id);
+            var designation = await _context.Designations.FindAsync(id);
             if (designation != null)
             {
-                _context.designations.Remove(designation);
+                _context.Designations.Remove(designation);
             }
             
             await _context.SaveChangesAsync();
@@ -156,7 +156,7 @@ namespace HumanResources.Web.Controllers
 
         private bool DesignationExists(int id)
         {
-          return (_context.designations?.Any(e => e.Id == id)).GetValueOrDefault();
+          return (_context.Designations?.Any(e => e.Id == id)).GetValueOrDefault();
         }
     }
 }
