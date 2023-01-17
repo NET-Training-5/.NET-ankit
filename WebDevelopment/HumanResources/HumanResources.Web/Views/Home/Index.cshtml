@@ -1,0 +1,38 @@
+﻿@model List<Employee>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<p class="display-2 text-center">Welcome to Human Resource Management Portal</p>
+
+@*
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Gender</th>
+            <th>Dob</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var employee in Model)
+        {
+            <tr>
+                <td>@employee.Id</td>
+                <td>@employee.Name</td>
+                <td>@employee.Address</td>
+                <td>@employee.Gender</td>
+                <td>@employee.Dob?.ToString("MMMM dd, yyyy")</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+
+
+
+*@

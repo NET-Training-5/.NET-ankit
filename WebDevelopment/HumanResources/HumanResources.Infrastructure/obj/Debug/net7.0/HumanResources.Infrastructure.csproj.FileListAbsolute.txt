@@ -1,0 +1,17 @@
+I:\New folder\.NET-ankit\WebDevelopment\HumanResources\HumanResources.Infrastructure\bin\Debug\net7.0\HumanResources.Infrastructure.deps.json
+I:\New folder\.NET-ankit\WebDevelopment\HumanResources\HumanResources.Infrastructure\bin\Debug\net7.0\HumanResources.Infrastructure.runtimeconfig.json
+I:\New folder\.NET-ankit\WebDevelopment\HumanResources\HumanResources.Infrastructure\bin\Debug\net7.0\HumanResources.Infrastructure.dll
+I:\New folder\.NET-ankit\WebDevelopment\HumanResources\HumanResources.Infrastructure\bin\Debug\net7.0\HumanResources.Infrastructure.pdb
+I:\New folder\.NET-ankit\WebDevelopment\HumanResources\HumanResources.Infrastructure\bin\Debug\net7.0\HumanResources.ApplicationCore.dll
+I:\New folder\.NET-ankit\WebDevelopment\HumanResources\HumanResources.Infrastructure\bin\Debug\net7.0\HumanResources.ApplicationCore.pdb
+I:\New folder\.NET-ankit\WebDevelopment\HumanResources\HumanResources.Infrastructure\obj\Debug\net7.0\HumanResources.Infrastructure.csproj.AssemblyReference.cache
+I:\New folder\.NET-ankit\WebDevelopment\HumanResources\HumanResources.Infrastructure\obj\Debug\net7.0\HumanResources.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+I:\New folder\.NET-ankit\WebDevelopment\HumanResources\HumanResources.Infrastructure\obj\Debug\net7.0\HumanResources.Infrastructure.AssemblyInfoInputs.cache
+I:\New folder\.NET-ankit\WebDevelopment\HumanResources\HumanResources.Infrastructure\obj\Debug\net7.0\HumanResources.Infrastructure.AssemblyInfo.cs
+I:\New folder\.NET-ankit\WebDevelopment\HumanResources\HumanResources.Infrastructure\obj\Debug\net7.0\HumanResources.Infrastructure.csproj.CoreCompileInputs.cache
+I:\New folder\.NET-ankit\WebDevelopment\HumanResources\HumanResources.Infrastructure\obj\Debug\net7.0\HumanResources.Infrastructure.csproj.CopyComplete
+I:\New folder\.NET-ankit\WebDevelopment\HumanResources\HumanResources.Infrastructure\obj\Debug\net7.0\HumanResources.Infrastructure.dll
+I:\New folder\.NET-ankit\WebDevelopment\HumanResources\HumanResources.Infrastructure\obj\Debug\net7.0\refint\HumanResources.Infrastructure.dll
+I:\New folder\.NET-ankit\WebDevelopment\HumanResources\HumanResources.Infrastructure\obj\Debug\net7.0\HumanResources.Infrastructure.pdb
+I:\New folder\.NET-ankit\WebDevelopment\HumanResources\HumanResources.Infrastructure\obj\Debug\net7.0\HumanResources.Infrastructure.genruntimeconfig.cache
+I:\New folder\.NET-ankit\WebDevelopment\HumanResources\HumanResources.Infrastructure\obj\Debug\net7.0\ref\HumanResources.Infrastructure.dll

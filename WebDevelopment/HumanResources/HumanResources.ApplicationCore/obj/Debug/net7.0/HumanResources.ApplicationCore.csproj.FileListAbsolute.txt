@@ -1,0 +1,12 @@
+I:\New folder\.NET-ankit\WebDevelopment\HumanResources\HumanResources.ApplicationCore\bin\Debug\net7.0\HumanResources.ApplicationCore.deps.json
+I:\New folder\.NET-ankit\WebDevelopment\HumanResources\HumanResources.ApplicationCore\bin\Debug\net7.0\HumanResources.ApplicationCore.dll
+I:\New folder\.NET-ankit\WebDevelopment\HumanResources\HumanResources.ApplicationCore\bin\Debug\net7.0\HumanResources.ApplicationCore.pdb
+I:\New folder\.NET-ankit\WebDevelopment\HumanResources\HumanResources.ApplicationCore\obj\Debug\net7.0\HumanResources.ApplicationCore.csproj.AssemblyReference.cache
+I:\New folder\.NET-ankit\WebDevelopment\HumanResources\HumanResources.ApplicationCore\obj\Debug\net7.0\HumanResources.ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+I:\New folder\.NET-ankit\WebDevelopment\HumanResources\HumanResources.ApplicationCore\obj\Debug\net7.0\HumanResources.ApplicationCore.AssemblyInfoInputs.cache
+I:\New folder\.NET-ankit\WebDevelopment\HumanResources\HumanResources.ApplicationCore\obj\Debug\net7.0\HumanResources.ApplicationCore.AssemblyInfo.cs
+I:\New folder\.NET-ankit\WebDevelopment\HumanResources\HumanResources.ApplicationCore\obj\Debug\net7.0\HumanResources.ApplicationCore.csproj.CoreCompileInputs.cache
+I:\New folder\.NET-ankit\WebDevelopment\HumanResources\HumanResources.ApplicationCore\obj\Debug\net7.0\HumanResources.ApplicationCore.dll
+I:\New folder\.NET-ankit\WebDevelopment\HumanResources\HumanResources.ApplicationCore\obj\Debug\net7.0\refint\HumanResources.ApplicationCore.dll
+I:\New folder\.NET-ankit\WebDevelopment\HumanResources\HumanResources.ApplicationCore\obj\Debug\net7.0\HumanResources.ApplicationCore.pdb
+I:\New folder\.NET-ankit\WebDevelopment\HumanResources\HumanResources.ApplicationCore\obj\Debug\net7.0\ref\HumanResources.ApplicationCore.dll

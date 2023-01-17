@@ -1,0 +1,56 @@
+﻿@model List<EmployeeViewModel>
+
+@{
+    ViewData["Title"] = "Employees";
+}
+<form action="/employee/index" class="float-end">
+<input type="text" name="searchText" placeholder="Type Something" class="w-35 mb-2 "/>
+<button type="submit">Search</button>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th></th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Address</th>
+            <th>Gender</th>
+            <th>Dob</th>
+            <th>Join Date</th>
+            <th>Department</th>
+            <th>Designation</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var employee in Model)
+        {
+            var profileSrc = string.IsNullOrEmpty(employee.ProfileImagePath)
+            ? "/images/person.jpg"
+            : employee.ProfileImagePath;
+
+            <tr>
+                <td><img class="rounded-circle" src="@profileSrc" height="25" /></td>
+                <td>@employee.Name</td>
+                <td>@employee.Email</td>
+                <td>@employee.Address</td>
+                <td>@employee.Gender</td>
+                <td>@employee.Dob?.ToString("MMMM dd, yyyy")</td>
+                <td>@employee.JoinDate.ToString("MMMM dd, yyyy")</td>
+                <td>@employee.DepartmentName</td>
+                <td>@employee.Designation</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@employee.Id">
+                        <i class="bi bi-pencil text-warning"></i>
+                    </a>
+                    
+                    <a asp-action="Delete" asp-route-id="@employee.Id">
+                        <i class="bi bi-trash text-danger"></i>
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
